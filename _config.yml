@@ -100,10 +100,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       다른 관심사 및 취미
-      - 강아지 산책
-      - 게임
-      - 노래 듣기
-      - 해외축구 시청
+      - 강아지 산책 : 저는 4살된 목양견인 셀티와 미니오시를 매일 매일 꾸준히 산책하며 돌보고 있습니다.
 
 # Footer
 footer_show_references: true
@@ -118,3 +115,5 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+ future: true
