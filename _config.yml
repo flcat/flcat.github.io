@@ -29,10 +29,10 @@ linkedin_username: flcat
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#  icon: fas fa-globe
-#  url: https://www.itsgoingto.be
+additional_links:
+  - title: Blog
+    icon: fas fa-globe
+    url: https://flcat.tistory.com/
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -101,6 +101,8 @@ content:
     content: | # this will include new lines to allow paragraphs
       다른 관심사 및 취미
       - 강아지 산책 : 저는 4살된 목양견인 셀티와 미니오시를 매일 매일 꾸준히 산책하며 돌보고 있습니다.
+
+![alt text](./images/mysons.jpeg "mysons")
 
 # Footer
 footer_show_references: true
