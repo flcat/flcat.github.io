@@ -1,0 +1,120 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: 권재찬 Kwon JaeChan
+email: flcat.xd@gmail.com
+website: https://github.com/flcat
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+github_username:  flcat
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: flcat
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  안녕하세요? 권재찬입니다. 모르는 것은 빠르게 인정하고 질문하며, 제 의견을 드러내는데에 불편함이 없습니다. 협업에있어 커뮤니케이션의 중요성을 잘알고있고 자신 있어합니다. 호기심이 많고 책임감이 강하며 어떠한 일에 기여하기를 좋아합니다.
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: 나스닥 자동 매수 / 매매
+        link: github.com/flcat/stock_market
+        # link_text: Project Website
+        additional_links:
+          - title:  flcat/stock_market
+            icon: fab fa-github
+            url: https://github.com/flcat/stock_market
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          주식 거래 프로젝트는 해외 주식의 실시간 주가 정보와 거래 기능을 제공하는 웹 애플리케이션입니다. Python 스크립트를 사용하여 Yahoo Finance로부터 주식 데이터를 수집하고, Spring Boot 애플리케이션에서 이를 처리하여 제공합니다. 주요 기능으로는 실시간 주가 업데이트, 주식 검색 및 필터링, 페이지네이션, 주식 주문 생성 및 전송, 계좌 잔고 조회, Slack 통합을 통한 알림 등이 있습니다. Java, Spring Boot, Python, PostgreSQL, Thymeleaf, Slack API 등의 기술이 사용되었습니다.
+          이 프로젝트를 진행하면서 많은 지식과 경험을 쌓을 수 있었습니다. 처음에는 Spring Boot와 주식 거래 시스템에 대한 이해도가 낮았지만, 프로젝트를 진행하면서 점점 개념을 익히고 실력을 기를 수 있었습니다. 특히, Python 스크립트와 Spring Boot 애플리케이션의 연동 부분은 가장 어려웠지만, 동시에 가장 큰 성취감을 느낄 수 있었습니다. 프로세스 실행, 데이터 파싱, 예외 처리 등 여러 가지 문제를 해결해야 했지만, 결국 성공적으로 구현할 수 있었습니다. 또한, 실제 주문 생성 및 전송 기능을 구현하면서 REST API 호출, 인증, 예외 처리, 실패 처리, 재시도 로직 등 다양한 부분을 학습할 수 있었습니다. 이런 부분들은 실제 운영 환경에서 매우 중요한 요소들이므로, 프로젝트를 통해 좋은 경험을 쌓을 수 있었습니다. 전반적으로 이 프로젝트는 저에게 큰 배움의 기회가 되었습니다. 여러 가지 어려움과 도전이 있었지만, 그만큼 많은 것을 얻을 수 있었습니다. 앞으로도 계속해서 기능을 추가하고 개선해나갈 계획입니다.
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 두드림진
+        link: dodreamjin.com
+        # link_text: boringcompany.com
+        sub_title: 선임연구원
+        caption: 2022년 9월 - 2023년 3월
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+            근무하는 동안 개발자가 저 한명이었습니다 아웃소싱 받는 개발자가 있었지만 담당영역이 달랐습니다. 기존에 안드로이드 자바, 타입스크립트, nodejs, php 등으로 만들어진 서비스들의 레거시코드가 있었고 기존코드를 유지보수하면서 기능추가를 했습니다. 위에 나열된 기술들을 전부 알진 못했기에 오로지 구글링과 스택오버플로우에 의존하고 가능한부분은 스프링으로 개발했습니다.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+
+        title:  방송통신대학교
+        caption: 2022.03 - 휴학
+        sub_title: 컴퓨터과학과
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          비전공자출신으로서 부트캠프 경험만으로는 이론에 대한 부족함을 느껴 편입하게 되었습니다.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      다른 관심사 및 취미
+      - 강아지 산책
+      - 게임
+      - 노래 듣기
+      - 해외축구 시청
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
