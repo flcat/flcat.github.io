@@ -54,7 +54,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: 육류 도매 가격 크롤러
+        title: 쇠고기 도매 가격 분석 프로젝트
         link: https://github.com/flcat/meat_wholesale_price
         # link_text: Project Website
         additional_links:
@@ -71,8 +71,7 @@ content:
           현재 재직중인 회사에서 일일히 수기로 조사하고 있기에 인력 낭비를 줄이기 위해, 또
           현재 육류의 경매시장 가격은 api로 제공되고 있지만 도매 시장가는 없기에 해당 프로젝트를 진행하게 되었습니다
           Python 프로젝트는 두번째여서 모르는게 많았지만 즐겁게 진행하고 많이 배우고 있습니다
-          현재는 excel 다운로드 형태지만 차후 무중단 배포로 웹사이트를 운영할 생각이고
-          현재는 숫자 형태로 수치화해서 데이터를 제공하지만 차후 그래프를 제공, 시각화 데이터를 제공하는게 목표입니다.
+          현재는 엑셀 다운로드 및 반응형 웹페이지에서 그래프로 볼 수 있고 최저가 최고가등을 표기해놨습니다.
   - title: Projects 2 # Title for the section
     layout: list # Type of content section (list/text)
     content:
