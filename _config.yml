@@ -55,7 +55,7 @@ content:
     content:
       - layout: top-middle
         title: 쇠고기 도매 가격 분석 프로젝트
-        link: https://github.com/flcat/meat_wholesale_price
+        link: http://gogiyo.com/charts
         # link_text: Project Website
         additional_links:
           - title:  flcat/meat_wholesale_price
