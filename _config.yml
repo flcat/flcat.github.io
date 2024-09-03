@@ -47,7 +47,10 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  안녕하세요? 권재찬입니다. 모르는 것은 빠르게 인정하고 질문하며, 제 의견을 드러내는데에 불편함이 없습니다. 협업에있어 커뮤니케이션의 중요성을 잘알고있고 자신 있어합니다. 호기심이 많고 책임감이 강하며 어떠한 일에 기여하기를 좋아합니다.
+  안녕하세요? 권재찬입니다. 
+  저는 협업하는데에 있어 팀원간 의견조율 능력이나 커뮤니케이션 능력이 출중합니다.
+  아마추어 게이머로 활동한적이 있는데 팀원간의 의견을 조율하고 상황을 판단하는 역할을 했고
+  경기도 대표로 우승하는 경험을 하였습니다.
 
 content:
   - title: Projects # Title for the section
@@ -70,8 +73,8 @@ content:
           육류 도매 가격 크롤러는 말 그대로 육류에 대한 도매시장가를 수집하는 api 입니다. 
           현재 재직중인 회사에서 일일히 수기로 조사하고 있기에 인력 낭비를 줄이기 위해, 또
           현재 육류의 경매시장 가격은 api로 제공되고 있지만 도매 시장가는 없기에 해당 프로젝트를 진행하게 되었습니다
-          Python 프로젝트는 두번째여서 모르는게 많았지만 즐겁게 진행하고 많이 배우고 있습니다
-          현재는 엑셀 다운로드 및 AWS EC2를 이용해 반응형 웹페이지에서 그래프로 볼 수 있고 최저가 최고가등을 표기해놨습니다.
+          아래링크는 트러블슈팅 기록입니다.
+          https://obsius.site/4j2i285b1o413m3w2t3m
   - title: Projects 2 # Title for the section
     layout: list # Type of content section (list/text)
     content:
