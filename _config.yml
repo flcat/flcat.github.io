@@ -71,8 +71,8 @@ content:
           
         description: | # this will include new lines to allow paragraphs
           육류 도매 가격 크롤러는 말 그대로 육류에 대한 도매시장가를 수집하는 api 입니다. 
-          현재 재직중인 회사에서 일일히 수기로 조사하고 있기에 인력 낭비를 줄이기 위해, 또
-          현재 육류의 경매시장 가격은 api로 제공되고 있지만 도매 시장가는 없기에 해당 프로젝트를 진행하게 되었습니다
+          현재 재직중인 회사에서 일일히 수기로 조사하고 있기에 인력 낭비를 줄이기 위해,
+          또, 현재 육류의 경매시장 가격은 api로 제공되고 있지만 도매 시장가는 없기에 해당 프로젝트를 진행하게 되었습니다.
           아래링크는 트러블슈팅 기록입니다.
           https://obsius.site/4j2i285b1o413m3w2t3m
   - title: Projects 2 # Title for the section
