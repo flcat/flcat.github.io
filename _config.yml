@@ -57,7 +57,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: 쇠고기 도매 가격 분석 프로젝트
+        title: 고기요
         link: https://gogiyo.com/charts
         # link_text: Project Website
         additional_links:
@@ -73,8 +73,13 @@ content:
           육류 도매 가격 크롤러는 말 그대로 육류에 대한 도매시장가를 수집하는 api 입니다. 
           현재 재직중인 회사에서 일일히 수기로 조사하고 있기에 인력 낭비를 줄이기 위해, <br>
           또, 현재 육류의 경매시장 가격은 api로 제공되고 있지만 도매 시장가는 없기에 해당 프로젝트를 진행하게 되었습니다. <br>
+          현재 수입 쇠고기에 대한 정보만 제공하고 있으나 향후 한우, 돼지, 닭에 대한 소,도매 정보를 추가제공할 예정입니다. <br>
+
+          고기요에 대한 개요는 아래링크에서 확인하실 수 있습니다. <br>
+          [https://obsius.site/170j0k710p1n2w1h3x2t](https://obsius.site/170j0k710p1n2w1h3x2t)
+          
           아래링크는 트러블슈팅 기록입니다. <br>
-          [https://obsius.site/4j2i285b1o413m3w2t3m](https://obsius.site/4j2i285b1o413m3w2t3m)
+          [https://obsius.site/2t346b2r0v2g0a5j235d](https://obsius.site/2t346b2r0v2g0a5j235d)
   - title: Projects 2 # Title for the section
     layout: list # Type of content section (list/text)
     content:
